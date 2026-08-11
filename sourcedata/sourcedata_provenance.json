@@ -1,0 +1,975 @@
+{
+ "dataset": "nm000277",
+ "moabb_class": "Mainsah2025_G",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Mainsah2025_G.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-Mainsah2025-data/bigP3BCI-data/StudyG",
+ "license": "CC-BY-4.0",
+ "doi": "10.13026/0byy-ry86",
+ "naming": "upstream_filenames_restored",
+ "n_files": 192,
+ "total_bytes": 829957120,
+ "files": [
+  {
+   "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test01.edf",
+   "bytes": 3274518,
+   "sha256": "dcd5ae6a155f17e1e2a2294917882d1fc7bb1ed14359caf4dcaa8a13e83cba5f"
+  },
+  {
+   "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test02.edf",
+   "bytes": 4240406,
+   "sha256": "9432c7ba728722346615e1173fe176afd34c93e23c38d6ed922468828189e53c"
+  },
+  {
+   "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test03.edf",
+   "bytes": 3155350,
+   "sha256": "e35fbf48f7512e9db54660660a292eaf7442c054049499b25c3d70cab92e17e0"
+  },
+  {
+   "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test04.edf",
+   "bytes": 4303126,
+   "sha256": "9a3389432b99ce5e2a05ecf6a8b9c7e0ed2d58a2da4ea6b7dbd9ebe443a80e17"
+  },
+  {
+   "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test05.edf",
+   "bytes": 2471702,
+   "sha256": "54daf0c84fbb354775ea747f66bcff8895ed849076cdb3830374c433d964e8b1"
+  },
+  {
+   "file": "G_01/SE001/Test/DynNgram/G_01_SE001_DynNgram_Test01.edf",
+   "bytes": 4114966,
+   "sha256": "d595be5d80dabd3512dd6d83f8161b2f44d2363092785be46699759c5ffdfd15"
+  },
+  {
+   "file": "G_01/SE001/Test/DynNgram/G_01_SE001_DynNgram_Test02.edf",
+   "bytes": 3111446,
+   "sha256": "c08a5353f1cfee6a418f5942f63d09a3bca5aeaeebba5ad8275ce4160664c252"
+  },
+  {
+   "file": "G_01/SE001/Test/DynNgram/G_01_SE001_DynNgram_Test03.edf",
+   "bytes": 3117718,
+   "sha256": "d25efceeb87aee7ebf0e65572af6379a1d18760d4ca8abb13ffe3f18f6098653"
+  },
+  {
+   "file": "G_01/SE001/Test/DynNgram/G_01_SE001_DynNgram_Test04.edf",
+   "bytes": 3149078,
+   "sha256": "76a8a3688b889e4417513e38d23edfcc174cdb32948a6779580c158f58791f58"
+  },
+  {
+   "file": "G_01/SE001/Test/DynNgram/G_01_SE001_DynNgram_Test05.edf",
+   "bytes": 2935830,
+   "sha256": "1123f2122832743c4e82a221c6bb41466013b5c7b0732c8e81636de3be9d18f9"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "4d4ad394f086fbedabbca711fa1df639ad716d914054bef50258cd8b7dc90be1"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "5146321c168c8d468e35b08d12c590b09eee9c31059df016e34cdf5333b2d633"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "6e2ba9fb82f243383bcb04c31697e06cb2c24662de4ec7b9d82ee415a7754d88"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "62a8dd7dd6de5135c27ac66682adfbb74977915829078e9afe611bc5eb8dc0a2"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "a1621675931f048235cde492fc6f1f39c1ff179d4de41a8897ac8586d5ec68d8"
+  },
+  {
+   "file": "G_01/SE001/Train/CB/G_01_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "cde499ff27120563b0de8891c94ad2a0b517eb553c81438e24e8ef9cf3fce506"
+  },
+  {
+   "file": "G_02/SE001/Test/DynBigram/G_02_SE001_DynBigram_Test01.edf",
+   "bytes": 1806870,
+   "sha256": "b26190fdbd9e42c482113507f288f38b36af7a0877598c75cfe658da39d9fd88"
+  },
+  {
+   "file": "G_02/SE001/Test/DynBigram/G_02_SE001_DynBigram_Test02.edf",
+   "bytes": 2885654,
+   "sha256": "21a8295debdc85efea6e0ace6491cefcdd7bc493c3c3d95d5b1c98ef90c087d4"
+  },
+  {
+   "file": "G_02/SE001/Test/DynBigram/G_02_SE001_DynBigram_Test03.edf",
+   "bytes": 3117718,
+   "sha256": "e83f505d17f8a2efacef2f1787c99b524335bc19bf136f529e083864f36fa292"
+  },
+  {
+   "file": "G_02/SE001/Test/DynBigram/G_02_SE001_DynBigram_Test04.edf",
+   "bytes": 2810390,
+   "sha256": "4f4712fcfed12309030094ac3c7fdc2dcd7f91a4b29db11259a74f91d8e7aaa2"
+  },
+  {
+   "file": "G_02/SE001/Test/DynBigram/G_02_SE001_DynBigram_Test05.edf",
+   "bytes": 2239638,
+   "sha256": "a862fedaad58be3b64b6a90ae915fc5190d25a8e006fec50e34c585920c31561"
+  },
+  {
+   "file": "G_02/SE001/Test/DynNgram/G_02_SE001_DynNgram_Test01.edf",
+   "bytes": 2816662,
+   "sha256": "37eaadfbb7f6a5b579ae235152763f435f7202bd42a73eb32d9e84dcb5d70aaa"
+  },
+  {
+   "file": "G_02/SE001/Test/DynNgram/G_02_SE001_DynNgram_Test02.edf",
+   "bytes": 1831958,
+   "sha256": "c9ab434f4d77931d544154205705dc8784700411ae12a1e825f59eb074051fbd"
+  },
+  {
+   "file": "G_02/SE001/Test/DynNgram/G_02_SE001_DynNgram_Test03.edf",
+   "bytes": 3061270,
+   "sha256": "4ed8c4201f85c88966de16197e49525f18423370f73d892232981eb060e8b45e"
+  },
+  {
+   "file": "G_02/SE001/Test/DynNgram/G_02_SE001_DynNgram_Test04.edf",
+   "bytes": 2615958,
+   "sha256": "0ac3bc2ba859ea588390672b72c6e3c8a89eaf322e62e3a91bd8a44ccbf12fb4"
+  },
+  {
+   "file": "G_02/SE001/Test/DynNgram/G_02_SE001_DynNgram_Test05.edf",
+   "bytes": 2390166,
+   "sha256": "1b9df0697d49b39c8c3bac99ba6d0e03090a7c41737ca0525111fec87b807707"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "e8d860af558cc0f69e075d2e3f3489a2a81af99e6cfa1deb2fa54b857bb30e52"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "bece33eb99ff936ac88101caad83d8555d7ef7b233a8d8b73f9536f659b3ed96"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "2d504f6e9f99e2e87f95a19aecd4cbbe9bcca42861ef9614311237603728d443"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "5794fb840058581cf51580b0aaa16ac6659351b70a5732c2f36212bdb67ef885"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "20f5c1448ac23b95819b9b6f53b43c82e92b1dd09768bab745b47c8568c19db0"
+  },
+  {
+   "file": "G_02/SE001/Train/CB/G_02_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "697290e03ced62995a67b15befcb85ec591d750de5f6fada95c605a57579b3f5"
+  },
+  {
+   "file": "G_03/SE001/Test/DynBigram/G_03_SE001_DynBigram_Test01.edf",
+   "bytes": 4284310,
+   "sha256": "aeec1d4dc226ed8488c4899473748909a2c09a501722e0f0a8eee334554562ab"
+  },
+  {
+   "file": "G_03/SE001/Test/DynBigram/G_03_SE001_DynBigram_Test02.edf",
+   "bytes": 2189462,
+   "sha256": "b4c66e5b726307033374c68db70a3169ae038120c96521c13df3fdab434a66a2"
+  },
+  {
+   "file": "G_03/SE001/Test/DynBigram/G_03_SE001_DynBigram_Test03.edf",
+   "bytes": 2446614,
+   "sha256": "8b559bcebcccf86ac9e4c857e960185228c45e248bdbde55d3999d2e5023ab83"
+  },
+  {
+   "file": "G_03/SE001/Test/DynBigram/G_03_SE001_DynBigram_Test04.edf",
+   "bytes": 2572054,
+   "sha256": "a8370dc27b3f19788131493e74ef113ec75a344860abd0f2ea4df2752684db27"
+  },
+  {
+   "file": "G_03/SE001/Test/DynBigram/G_03_SE001_DynBigram_Test05.edf",
+   "bytes": 2960918,
+   "sha256": "648bab4c92fd443b133507c6bc6397b5bab9bdeffe114ada01250b20f0362b72"
+  },
+  {
+   "file": "G_03/SE001/Test/DynNgram/G_03_SE001_DynNgram_Test01.edf",
+   "bytes": 3870358,
+   "sha256": "d890daf8c8bb9ee2f9a795ef984e4f9c721656128dd3a995537da04f33d4df2e"
+  },
+  {
+   "file": "G_03/SE001/Test/DynNgram/G_03_SE001_DynNgram_Test02.edf",
+   "bytes": 2584598,
+   "sha256": "41f4b8fdcc6851a5405e5d57488a2984abb5ed367c4d4d745a7b06fe684216df"
+  },
+  {
+   "file": "G_03/SE001/Test/DynNgram/G_03_SE001_DynNgram_Test03.edf",
+   "bytes": 2202006,
+   "sha256": "3e953fd06f547d9edec11602f40ec32bbe9355585b07077393bb4d5b7ad45835"
+  },
+  {
+   "file": "G_03/SE001/Test/DynNgram/G_03_SE001_DynNgram_Test04.edf",
+   "bytes": 4278038,
+   "sha256": "aa212df16c47fce4da8edcefef065ca7f4b2be3881cc70f7bcdf1f655802ff15"
+  },
+  {
+   "file": "G_03/SE001/Test/DynNgram/G_03_SE001_DynNgram_Test05.edf",
+   "bytes": 3130262,
+   "sha256": "b09ff2d885b13e5d19282e361cb761fc18336e0706f88789ba0a11729e848d05"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "af5550a059d1c989a727d5655eab59e6124f8a66c006c203b4eea13e0eb2fda7"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "fb5323ca906aa941478ebde78d2011bf96be67ec2f534d41ee654adddc8b11f0"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "31df9f12fb1f794f7dc3aacab8861283da026fe5c2e47f6e1289c400380ac358"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "808bd0307dc0869ceb445f1f17467bb52c0ca8d0b61e92881ded05e4126052ed"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "d18d58eaa7305756c6d7a335c269e95e263ccfee3928047c92993d52c5e9194e"
+  },
+  {
+   "file": "G_03/SE001/Train/CB/G_03_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "bdd8d7a48bc5e52affdde905a98fa1109c35dc01559c47b687ad8b64feae21c4"
+  },
+  {
+   "file": "G_04/SE001/Test/DynBigram/G_04_SE001_DynBigram_Test01.edf",
+   "bytes": 3312150,
+   "sha256": "da5545d51cb96fef80460bf9764d38120d91052f132f2e94473e942d33fabe32"
+  },
+  {
+   "file": "G_04/SE001/Test/DynBigram/G_04_SE001_DynBigram_Test02.edf",
+   "bytes": 5049494,
+   "sha256": "ffb8ce013ec1e2cd96c96a90250fdfc25a4c1c47c3a77d497b74700c9d15c387"
+  },
+  {
+   "file": "G_04/SE001/Test/DynBigram/G_04_SE001_DynBigram_Test03.edf",
+   "bytes": 2609686,
+   "sha256": "9c62cbb4fb78e6d180fa3a763172ba4d0a633e18e09db0ef04b60d47135b7018"
+  },
+  {
+   "file": "G_04/SE001/Test/DynBigram/G_04_SE001_DynBigram_Test04.edf",
+   "bytes": 3149078,
+   "sha256": "5b2d2fa797d26325a49339b65ef46588ad0f241664a8d3ee99a99515846dd148"
+  },
+  {
+   "file": "G_04/SE001/Test/DynBigram/G_04_SE001_DynBigram_Test05.edf",
+   "bytes": 2107926,
+   "sha256": "bf240967ed4a786f6b36cbcb0baee104814b65512e97f68dd61aa2832577c016"
+  },
+  {
+   "file": "G_04/SE001/Test/DynNgram/G_04_SE001_DynNgram_Test01.edf",
+   "bytes": 3895446,
+   "sha256": "366c487009babf423e684d3b9e4da25c1cf83aa18f464c3cdaa0cac0176d63a5"
+  },
+  {
+   "file": "G_04/SE001/Test/DynNgram/G_04_SE001_DynNgram_Test02.edf",
+   "bytes": 1825686,
+   "sha256": "d18cdd0575a393a340c02c1750f25d6aa124388ac861f0f97a1fe05f3bc8e9a2"
+  },
+  {
+   "file": "G_04/SE001/Test/DynNgram/G_04_SE001_DynNgram_Test03.edf",
+   "bytes": 3669654,
+   "sha256": "81ad574889e159731b55ef31694dae59a420726ac557fc9a5247aa511bf5d6fd"
+  },
+  {
+   "file": "G_04/SE001/Test/DynNgram/G_04_SE001_DynNgram_Test04.edf",
+   "bytes": 2659862,
+   "sha256": "45ba01cbd445fb552130a9283cfe0c10eefa773f28e055d3572dd99bf22e0840"
+  },
+  {
+   "file": "G_04/SE001/Test/DynNgram/G_04_SE001_DynNgram_Test05.edf",
+   "bytes": 2264726,
+   "sha256": "932f842ff24e0dbe6af3021848e7246d28efd6557dbafd1448036f0c12844514"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "23dc15749f7c02a931110e54b91e1cb006488a0af34a7735ca504c646da05979"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "570ad346ab93195af533fdbb17849718a75683e3ef74e1e94e977accd197d36e"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "39e5a3e03ec9c1fe0c0dc732bea9c4d893edf698b0e5a41ff69f378f0480cb5b"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "65130038b0e4dbd5e4df5b66f1511bf14571c9dd9bb8ee9aa4a6488fc54bc28a"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "0c27216ea7cfbfc1f6998b12e047c71c9fbcf64992ffd3041b6204298e50eec7"
+  },
+  {
+   "file": "G_04/SE001/Train/CB/G_04_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "dd168ed019f5c20e7977956789215ad85ff006b22d4394f8f1fd0da718ec5aa1"
+  },
+  {
+   "file": "G_13/SE001/Test/DynBigram/G_13_SE001_DynBigram_Test01.edf",
+   "bytes": 3180438,
+   "sha256": "01ab3c0646c9bea4adee576872d39275ef423e3b4b5405d63845995f2e9fcf86"
+  },
+  {
+   "file": "G_13/SE001/Test/DynBigram/G_13_SE001_DynBigram_Test02.edf",
+   "bytes": 3989526,
+   "sha256": "f5f4e9d13e1b4eb23a8932188aaa5d8dc63ed25e766351ef18a9827570e6db66"
+  },
+  {
+   "file": "G_13/SE001/Test/DynBigram/G_13_SE001_DynBigram_Test03.edf",
+   "bytes": 4723350,
+   "sha256": "7c94e44b5f73c0a25c456b1d78c02ccf7da00e95666322d71c69e532d7de966d"
+  },
+  {
+   "file": "G_13/SE001/Test/DynBigram/G_13_SE001_DynBigram_Test04.edf",
+   "bytes": 4754710,
+   "sha256": "35a69eb2bca1bb9ed2774ae0aa0ee28b668f6e60ae07a07b44ed4de2483bd082"
+  },
+  {
+   "file": "G_13/SE001/Test/DynBigram/G_13_SE001_DynBigram_Test05.edf",
+   "bytes": 3399958,
+   "sha256": "5ade423457ba4c270fdce4099a14a0483a7fa2c17e000a371fe8f7a8bf5ec5ac"
+  },
+  {
+   "file": "G_13/SE001/Test/DynNgram/G_13_SE001_DynNgram_Test01.edf",
+   "bytes": 3970710,
+   "sha256": "d690ee9bdb31307c19c3707b45605a32a301b3c5f753171c82df617b36b03a3d"
+  },
+  {
+   "file": "G_13/SE001/Test/DynNgram/G_13_SE001_DynNgram_Test02.edf",
+   "bytes": 4064790,
+   "sha256": "363e9916fd9dd383f60e7fb5c94ad20b30410c31793c2ac8a413703fe36277aa"
+  },
+  {
+   "file": "G_13/SE001/Test/DynNgram/G_13_SE001_DynNgram_Test03.edf",
+   "bytes": 3431318,
+   "sha256": "f7852de6d39e422f02b65832cfd70a291dc33a1af66dc48f1039f26805096ab8"
+  },
+  {
+   "file": "G_13/SE001/Test/DynNgram/G_13_SE001_DynNgram_Test04.edf",
+   "bytes": 3600662,
+   "sha256": "4e585fa703da0f8e8aed0dd6b68e35c042fb09be4844d6b5a24e137e2c41e184"
+  },
+  {
+   "file": "G_13/SE001/Test/DynNgram/G_13_SE001_DynNgram_Test05.edf",
+   "bytes": 2810390,
+   "sha256": "9495a972432bac1309c49f875ba45a8a66fcc928e06e676b376375ea0d1d739d"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "7a7135007390ad2134279d9bd5b208f865ebfed1fa40893b55fc36e39379ca0d"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "86c665ebdc45849321e86f1e68f81d4e37c008ab3dae26601c6455f67c88a66c"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "1cc8f2a870cfd9fbc7fceb7a9ee34866d6fcebbfe1001ad97d21e4bb71af314b"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "92b554dca1bed450f96c0b0aa82a724a9385f6379c0048ba4dae2842c1dce14c"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "8bb1442ca6ac4012075482701544e3e747e9f809127c024aec5ced367317b2c7"
+  },
+  {
+   "file": "G_13/SE001/Train/CB/G_13_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "bb2dbdf4e77a98c3a6595b7590ab477bae1571431c33cc6674ad600806d231a3"
+  },
+  {
+   "file": "G_14/SE001/Test/DynBigram/G_14_SE001_DynBigram_Test01.edf",
+   "bytes": 3287062,
+   "sha256": "6642decd00fefe04505b82055df70d35989457e592ab34b1ae8e9820a32f88e5"
+  },
+  {
+   "file": "G_14/SE001/Test/DynBigram/G_14_SE001_DynBigram_Test02.edf",
+   "bytes": 1869590,
+   "sha256": "2af25cee6fe46b92a8b6fc3b0898cb2f1b655841de8c8018a04b05749c95c804"
+  },
+  {
+   "file": "G_14/SE001/Test/DynBigram/G_14_SE001_DynBigram_Test03.edf",
+   "bytes": 3149078,
+   "sha256": "a8007e0ebfa9c16d0b6514057c40a965df3b533b74994fa67a357368650e2d00"
+  },
+  {
+   "file": "G_14/SE001/Test/DynBigram/G_14_SE001_DynBigram_Test04.edf",
+   "bytes": 2333718,
+   "sha256": "ac0005481c74d8033787e7dccb6e2e28180dbb4235170cd2d803edad82a1ab22"
+  },
+  {
+   "file": "G_14/SE001/Test/DynBigram/G_14_SE001_DynBigram_Test05.edf",
+   "bytes": 3381142,
+   "sha256": "a5fb1e2f46a91c9c03f29260bfe9b1ed11f5bb59b3ac51658eb7480b509ea36f"
+  },
+  {
+   "file": "G_14/SE001/Test/DynNgram/G_14_SE001_DynNgram_Test01.edf",
+   "bytes": 2804118,
+   "sha256": "969e8a87faec23d7cd831a667155c6c0e18330078175ed72d3ce803b33cb5bdf"
+  },
+  {
+   "file": "G_14/SE001/Test/DynNgram/G_14_SE001_DynNgram_Test02.edf",
+   "bytes": 1982486,
+   "sha256": "40f38aff957fb273996f3e64746cce4575f184e3533b73dd6da8d66fb350905e"
+  },
+  {
+   "file": "G_14/SE001/Test/DynNgram/G_14_SE001_DynNgram_Test03.edf",
+   "bytes": 3343510,
+   "sha256": "76d510bfc402dbc8ee40b8fc316e1704b125d907fc9d86c87ab346472ee83881"
+  },
+  {
+   "file": "G_14/SE001/Test/DynNgram/G_14_SE001_DynNgram_Test04.edf",
+   "bytes": 2346262,
+   "sha256": "65bea94ce22b59974959b0638b876454509dfebd303e66dfe46d85b653c963e2"
+  },
+  {
+   "file": "G_14/SE001/Test/DynNgram/G_14_SE001_DynNgram_Test05.edf",
+   "bytes": 3450134,
+   "sha256": "2ce970bff5d37b6a6fba62a21570ffc64411033fc1e1075708eb7d3c5879971f"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "f56144f2103648af1f5559c1f8269064c9ef4187784d3a424484e9dd6d1a9120"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "ade02c3179de0d944d883d55576df41b4f8caace6e6deebd0f68fee3c3627845"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "3c91d082181230fa80674539bf374d4b2cee2ec7083297d68dfd2343cee47592"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "f81c94bfea50b029a662a2ffd92bc928acd2e94a107330df9a93cfd025c5b6e2"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "fff1cc9326c442e0c8de80ac0265ae4e09005e66d43e2285ddefc3496895faed"
+  },
+  {
+   "file": "G_14/SE001/Train/CB/G_14_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "81530323d7a34eb3d912090ed4c0ad82ff0a8a5430a412a02f45645a825a7819"
+  },
+  {
+   "file": "G_15/SE001/Test/DynBigram/G_15_SE001_DynBigram_Test01.edf",
+   "bytes": 4660630,
+   "sha256": "f4b7c1bd43dffb261a06c1a93d325d89cb0efee3ed32bb0916b994bff12432b6"
+  },
+  {
+   "file": "G_15/SE001/Test/DynBigram/G_15_SE001_DynBigram_Test02.edf",
+   "bytes": 5958934,
+   "sha256": "978dc66254588eb5dce2035b6829129fdd32b1bc9c9bd7f69aea394c4d52c356"
+  },
+  {
+   "file": "G_15/SE001/Test/DynBigram/G_15_SE001_DynBigram_Test03.edf",
+   "bytes": 3500310,
+   "sha256": "01f0b4faf06b9fa90766e4a24e1410dd31c784fc2b2f03eb84726257c781a092"
+  },
+  {
+   "file": "G_15/SE001/Test/DynBigram/G_15_SE001_DynBigram_Test04.edf",
+   "bytes": 5406998,
+   "sha256": "0f89128b0412d093acebc4a633c153d7ed98c2a67a23c6f2658a23085839a290"
+  },
+  {
+   "file": "G_15/SE001/Test/DynBigram/G_15_SE001_DynBigram_Test05.edf",
+   "bytes": 4196502,
+   "sha256": "64184beff33160a4c383b4b459f429ee83e6f67992e86151bf820087d39f5834"
+  },
+  {
+   "file": "G_15/SE001/Test/DynNgram/G_15_SE001_DynNgram_Test01.edf",
+   "bytes": 3688470,
+   "sha256": "a9aeb5f7644255b03e1cd8d564cced361ef25029eac7e159618ac234fec4219a"
+  },
+  {
+   "file": "G_15/SE001/Test/DynNgram/G_15_SE001_DynNgram_Test02.edf",
+   "bytes": 4792342,
+   "sha256": "f8a2f7ca0fc8a2778e225e96c29597308cc0384bcc5c5cc5996543dd7be3e0aa"
+  },
+  {
+   "file": "G_15/SE001/Test/DynNgram/G_15_SE001_DynNgram_Test03.edf",
+   "bytes": 4867606,
+   "sha256": "412218fa9f848d8899b73d05a4fc70b0f912a224582961e130b9a3a1a6254261"
+  },
+  {
+   "file": "G_15/SE001/Test/DynNgram/G_15_SE001_DynNgram_Test04.edf",
+   "bytes": 3732374,
+   "sha256": "385af7acdf7e83b704a34642c86d3cf866acc7432d0136c003ff65bc55dcefbd"
+  },
+  {
+   "file": "G_15/SE001/Test/DynNgram/G_15_SE001_DynNgram_Test05.edf",
+   "bytes": 3023638,
+   "sha256": "a976a77a580c8af5832a0ac3873d915b3a0eb41cbe7af1fab870c37d63a2dc35"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "72e04ceb87dfd2afa3ff24dc6605d6e64c1c803071ba6284922936175cf93ed3"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "ff89320263a62ccf05bd37ead1101a2ea60daaa6e4b18c9dc8c5424373c2bac9"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "f195d6335db7950b593835e76a0912c9fddcdfd6e91295bf109b14542fc5aef0"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "3ee9a394bfa63ad25886758ce977e5c11713f5fef53c04941a4d4fd8729961cc"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "6513d2122c9313d78e002d291318ec15e367eca06eff4da3bcfc3f4aa07ff3dc"
+  },
+  {
+   "file": "G_15/SE001/Train/CB/G_15_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "9c548299a714beef67144e8bccafa1eb202e229c48387c83880e51b6e5b93208"
+  },
+  {
+   "file": "G_16/SE001/Test/DynBigram/G_16_SE001_DynBigram_Test01.edf",
+   "bytes": 3964438,
+   "sha256": "537bcd550756ef6f3129de88832584d02c049ad6723694e3cce162253d737244"
+  },
+  {
+   "file": "G_16/SE001/Test/DynBigram/G_16_SE001_DynBigram_Test02.edf",
+   "bytes": 4422294,
+   "sha256": "5a311724dfbd7ace5d8c8175fab0109387484dcfbe75fc5112641d24e082e06e"
+  },
+  {
+   "file": "G_16/SE001/Test/DynBigram/G_16_SE001_DynBigram_Test03.edf",
+   "bytes": 3299606,
+   "sha256": "344b66d166c6f0d5f62e37ed68929f66e482058e4cae098648416fea6f6a2ff2"
+  },
+  {
+   "file": "G_16/SE001/Test/DynBigram/G_16_SE001_DynBigram_Test04.edf",
+   "bytes": 3983254,
+   "sha256": "e6d946389d5f1da425b317d77fbc8273568be3f439bf87e1b39877afc9ff3c84"
+  },
+  {
+   "file": "G_16/SE001/Test/DynBigram/G_16_SE001_DynBigram_Test05.edf",
+   "bytes": 2885654,
+   "sha256": "9d84053b24773c04f5cdee3456980cf7ccd5c8497ad97e638ece3459199ed09f"
+  },
+  {
+   "file": "G_16/SE001/Test/DynNgram/G_16_SE001_DynNgram_Test01.edf",
+   "bytes": 2716310,
+   "sha256": "9334e0922e3387ac43f5b951137510e83adc8fd201fbb7c6edd73abdb1b1f975"
+  },
+  {
+   "file": "G_16/SE001/Test/DynNgram/G_16_SE001_DynNgram_Test02.edf",
+   "bytes": 3575574,
+   "sha256": "6ae333039f322d29e23304d9c3efb6565a7619a6fbdc28dc57f5350410a97981"
+  },
+  {
+   "file": "G_16/SE001/Test/DynNgram/G_16_SE001_DynNgram_Test03.edf",
+   "bytes": 3933078,
+   "sha256": "0b242d7601974de4703aea4ff5dcf1ccf76d0cbfe525b3efad10b4b8823c057c"
+  },
+  {
+   "file": "G_16/SE001/Test/DynNgram/G_16_SE001_DynNgram_Test04.edf",
+   "bytes": 2503062,
+   "sha256": "8fba1bc15cb91af697c3442d80fdb11ef04663c3ae12d1ac170d59ef42365cb3"
+  },
+  {
+   "file": "G_16/SE001/Test/DynNgram/G_16_SE001_DynNgram_Test05.edf",
+   "bytes": 5275286,
+   "sha256": "7c916d5004e83bf14381a8eda3fc035c22a66ca21347793737d08bc36ebd5306"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train01.edf",
+   "bytes": 6924822,
+   "sha256": "6317ddaa9cda2e772ab828e045174cacaa360dbfd4c71770b7d20c613176f376"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "b586a55e82471fe17b0cf035e0ff27626071e9f61db5ed808ad3f63cec22ac62"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "f1e430ee5ee43946a6603aebef09fece5a810a9464b684d586264c8a02fa4b50"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "02bc88ca9ca13e60a6623bf88d56ff525079b9b229484a1f5094e2a73e0e40ba"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "851dce46d94a9a5757cc017d18579b18ff388063dede37341bdd19f4315e1ecc"
+  },
+  {
+   "file": "G_16/SE001/Train/CB/G_16_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "d48320702740ddb16ce753fcac5d0b85a01c1284a904b6d45d6db48edacbf001"
+  },
+  {
+   "file": "G_17/SE001/Test/DynBigram/G_17_SE001_DynBigram_Test01.edf",
+   "bytes": 2891926,
+   "sha256": "5234f145930de166f42c32d4000668cc440d130165eba40b7f36c7d164278c38"
+  },
+  {
+   "file": "G_17/SE001/Test/DynBigram/G_17_SE001_DynBigram_Test02.edf",
+   "bytes": 2917014,
+   "sha256": "95a7bbadb5ab9701530be5299e1855078af5ab08d662870f870c9987577f4ca1"
+  },
+  {
+   "file": "G_17/SE001/Test/DynBigram/G_17_SE001_DynBigram_Test03.edf",
+   "bytes": 3995798,
+   "sha256": "4661b2c102c198f81512698f094293a673bf9695d9794ade61c3912207a47f1b"
+  },
+  {
+   "file": "G_17/SE001/Test/DynBigram/G_17_SE001_DynBigram_Test04.edf",
+   "bytes": 5883670,
+   "sha256": "f9c6937ad3d594dee2a508fcea473277ac12875fe84cde16f31b280731535e0c"
+  },
+  {
+   "file": "G_17/SE001/Test/DynBigram/G_17_SE001_DynBigram_Test05.edf",
+   "bytes": 4478742,
+   "sha256": "714389bd8057ffc2703fb56bc3c969919636be6dd9341d7e2f7fa5bedf00a25f"
+  },
+  {
+   "file": "G_17/SE001/Test/DynNgram/G_17_SE001_DynNgram_Test01.edf",
+   "bytes": 3086358,
+   "sha256": "84f4cd24054ec7f15bccd3f9891e2d1129165f87a63bedf73a9bbe9eed89a24b"
+  },
+  {
+   "file": "G_17/SE001/Test/DynNgram/G_17_SE001_DynNgram_Test02.edf",
+   "bytes": 3701014,
+   "sha256": "5649d3ed5693e4a595a2626df00afae18692b6855b51737b38ba082c42edc9a2"
+  },
+  {
+   "file": "G_17/SE001/Test/DynNgram/G_17_SE001_DynNgram_Test03.edf",
+   "bytes": 3563030,
+   "sha256": "fb53d0e454170514f648c1195533bb4e0fdc72832207a7a926409ef44f699be6"
+  },
+  {
+   "file": "G_17/SE001/Test/DynNgram/G_17_SE001_DynNgram_Test04.edf",
+   "bytes": 2728854,
+   "sha256": "19b72832f0cf19177cb2f81bd1ccd8cbbb5665ea218ba1c0347b1405156f5817"
+  },
+  {
+   "file": "G_17/SE001/Test/DynNgram/G_17_SE001_DynNgram_Test05.edf",
+   "bytes": 3305878,
+   "sha256": "a15bfc44111f9e192e1b7e5c6b4d0c9709396ab00bb276b7afeeb79222d70776"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "7e5970243a03df492d81c5712cb2934af4be4cb02a4836d79f110feba64fd179"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "6415ef50bc4e5033e4d6ae4165dafde63d9c42314608b7f50b9a5b759b28f8e0"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "8f43c213a4e79f45b6746a8f9cb7c08aa794477beafb5d63566cd7b7c164d8f2"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "5df38c9b488af313dd61be279a1645b6928e39ed53c79303863d3e35536f832c"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "93e3f37759f732650abdb92680f47858b1131f3043171346fbf8ee19336864f6"
+  },
+  {
+   "file": "G_17/SE001/Train/CB/G_17_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "36cc84bb5d9fe0d5b50e846e0bb881b38260e141a438946ff4e7b5b09d166b53"
+  },
+  {
+   "file": "G_18/SE001/Test/DynBigram/G_18_SE001_DynBigram_Test01.edf",
+   "bytes": 3682198,
+   "sha256": "bd12ab5c92df2164cc1ba5e99a7be8f42f33511f35d33bcfed9e212b246d02c3"
+  },
+  {
+   "file": "G_18/SE001/Test/DynBigram/G_18_SE001_DynBigram_Test02.edf",
+   "bytes": 3688470,
+   "sha256": "e2b06e04aac8c6029717e3aa58198f59347aef40b1de28c769f00eabc1ef6073"
+  },
+  {
+   "file": "G_18/SE001/Test/DynBigram/G_18_SE001_DynBigram_Test03.edf",
+   "bytes": 2540694,
+   "sha256": "c5a7194f4917774f1163a0bda9b7686e192b7eeab3fb4e755b944f96c6914c4d"
+  },
+  {
+   "file": "G_18/SE001/Test/DynBigram/G_18_SE001_DynBigram_Test04.edf",
+   "bytes": 5444630,
+   "sha256": "c2211818a930c899fc5254773e5689947cd09b2e2bf23b77169f481960c90b8f"
+  },
+  {
+   "file": "G_18/SE001/Test/DynBigram/G_18_SE001_DynBigram_Test05.edf",
+   "bytes": 4666902,
+   "sha256": "ea9793de4b1306a17ebfa7e10e1e6f3376cdf8b19ccf10302f862c69bb657888"
+  },
+  {
+   "file": "G_18/SE001/Test/DynNgram/G_18_SE001_DynNgram_Test01.edf",
+   "bytes": 2515606,
+   "sha256": "53772e411418bd344eea558653f410185c6f28f395a8dc57a2995b9bbbf57387"
+  },
+  {
+   "file": "G_18/SE001/Test/DynNgram/G_18_SE001_DynNgram_Test02.edf",
+   "bytes": 3688470,
+   "sha256": "cf0a119ae053b620f02482d5d4fc29c2fc00d16c07b146ee9f8cafcfa8dedea4"
+  },
+  {
+   "file": "G_18/SE001/Test/DynNgram/G_18_SE001_DynNgram_Test03.edf",
+   "bytes": 4742166,
+   "sha256": "24faed6fa99c69a9b4d8c829656b436ab03bccd12c96644cf0a8f3a086a4b790"
+  },
+  {
+   "file": "G_18/SE001/Test/DynNgram/G_18_SE001_DynNgram_Test04.edf",
+   "bytes": 4045974,
+   "sha256": "f775839174b2c4f49765767812fafafa4405ff9ef862f8b7258968a33804addd"
+  },
+  {
+   "file": "G_18/SE001/Test/DynNgram/G_18_SE001_DynNgram_Test05.edf",
+   "bytes": 2829206,
+   "sha256": "8ff04aeb2d51a92bb86bd20804a82c7806cde31a3b68b2ce26449a395f426379"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "b59214e8cbef49791924b129a1a454a5267ddc7835b9d51d6962099a99a1e36d"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "d129663121d26a5aac226596c015b6520d159b8f564904b8fafccc62f056ab8a"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "38eace67202e5272ca8e35b1ac72bb581c94a605adf3df9ea97d5b35844d332e"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "82b7ce1e036774b75f157ecd717ae7b9dc82dbffb30e49c587e35e94cc2a75fa"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "d7e598164e7f77f7e715e3a2ed2b91cd55bf3875b865b906b09a06478dbd4888"
+  },
+  {
+   "file": "G_18/SE001/Train/CB/G_18_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "d2999636e7fa61165b970ae7dec03c356a91c41ab984924ece14fb9fa5bc819d"
+  },
+  {
+   "file": "G_19/SE001/Test/DynBigram/G_19_SE001_DynBigram_Test01.edf",
+   "bytes": 2597142,
+   "sha256": "fc83a8f5c0c46351463f069d996071fedcca980e8de65429ebc07e593870db8a"
+  },
+  {
+   "file": "G_19/SE001/Test/DynBigram/G_19_SE001_DynBigram_Test02.edf",
+   "bytes": 2992278,
+   "sha256": "2da50b34b527471b1a0532d422c4ffb4fbfc8a53b8a6d976f23fa3c4030a8f77"
+  },
+  {
+   "file": "G_19/SE001/Test/DynBigram/G_19_SE001_DynBigram_Test03.edf",
+   "bytes": 4221590,
+   "sha256": "33ba9a274c9e3433a9708040afa928b52fa3bba01ddbe150cb83b5b06c0713eb"
+  },
+  {
+   "file": "G_19/SE001/Test/DynBigram/G_19_SE001_DynBigram_Test04.edf",
+   "bytes": 3437590,
+   "sha256": "88a6a8518d1df84e227fee1f0ec269e6913ae7e387876942617efa4ce07551f6"
+  },
+  {
+   "file": "G_19/SE001/Test/DynBigram/G_19_SE001_DynBigram_Test05.edf",
+   "bytes": 2540694,
+   "sha256": "c19ddee70db2717e51131f32e7752d2af42188dd2bc71940041b8004c0a8d1f5"
+  },
+  {
+   "file": "G_19/SE001/Test/DynNgram/G_19_SE001_DynNgram_Test01.edf",
+   "bytes": 2854294,
+   "sha256": "3c161a0c2a741b76ffdc17ee2c78ba6afb11170005e83763e2328258fde3dd3b"
+  },
+  {
+   "file": "G_19/SE001/Test/DynNgram/G_19_SE001_DynNgram_Test02.edf",
+   "bytes": 3826454,
+   "sha256": "7a0247c9728376f2877892977609b6725aac81997b3317c15afa4cc5476c9ec2"
+  },
+  {
+   "file": "G_19/SE001/Test/DynNgram/G_19_SE001_DynNgram_Test03.edf",
+   "bytes": 1938582,
+   "sha256": "bfd15a288debf426ac050dac209780b5a5bbb3291203faaf2d76bce3159b2880"
+  },
+  {
+   "file": "G_19/SE001/Test/DynNgram/G_19_SE001_DynNgram_Test04.edf",
+   "bytes": 3061270,
+   "sha256": "09a3f80eaeb3287d13304a8bc38061fa5f0157b5ec0e3cc1f6e8852a204d1b53"
+  },
+  {
+   "file": "G_19/SE001/Test/DynNgram/G_19_SE001_DynNgram_Test05.edf",
+   "bytes": 2672406,
+   "sha256": "c337ee08f1086ccdc349941e04ceb773e39c621803fee63d5a7f70059c80d3d9"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train01.edf",
+   "bytes": 5996566,
+   "sha256": "4215ac9d834609559204cc12e115c8d09568b781f04bfda87e6f87744be480f1"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "492f47d3cc290b8e46956184b77531e476c53f4cfd6ef1a29cad6c3106bd777c"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "2383402dcc586007077c93aa96ed7422806c776f694d7d6a3b4a2e44349ac489"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "5d2ff1e438633d5983b6af95e392dfb89338ba0298e39306117849526ac1ed56"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "70c4ab42b7180fef247909a8076fc020c906313da4e8b6c056314532febe09df"
+  },
+  {
+   "file": "G_19/SE001/Train/CB/G_19_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "65f52605ad717bb05c1af0f7c80e4023dd8e783e004fe052fba66df26dcdf733"
+  },
+  {
+   "file": "G_20/SE001/Test/DynBigram/G_20_SE001_DynBigram_Test01.edf",
+   "bytes": 2308630,
+   "sha256": "38fba3a8f0ef6dbeb16d316efe436f1f156eb91aa9827ff7e64ee7f9a8b8b61d"
+  },
+  {
+   "file": "G_20/SE001/Test/DynBigram/G_20_SE001_DynBigram_Test02.edf",
+   "bytes": 1838230,
+   "sha256": "6c42f04f7479681663469ea3802657e3725f211557200477bced3e3e45e77d82"
+  },
+  {
+   "file": "G_20/SE001/Test/DynBigram/G_20_SE001_DynBigram_Test03.edf",
+   "bytes": 2873110,
+   "sha256": "b85883787b9101c9cd9e69c96ca08bf194c13c50ca54f40dfd0c6d2371bd2994"
+  },
+  {
+   "file": "G_20/SE001/Test/DynBigram/G_20_SE001_DynBigram_Test04.edf",
+   "bytes": 2572054,
+   "sha256": "b46ca4a5aca86c2848cef4f065bed4651bdbf90cc54ae71bcaca260705bc1a37"
+  },
+  {
+   "file": "G_20/SE001/Test/DynBigram/G_20_SE001_DynBigram_Test05.edf",
+   "bytes": 3274518,
+   "sha256": "5547a85fa5f124f61ef834582e12270e78c91273ed9be2abdc26149cf185db35"
+  },
+  {
+   "file": "G_20/SE001/Test/DynNgram/G_20_SE001_DynNgram_Test01.edf",
+   "bytes": 3324694,
+   "sha256": "101cf4a4abfc3eb194b9093fc93ecbae10f5a3577118caf32463bea6d0d90b5d"
+  },
+  {
+   "file": "G_20/SE001/Test/DynNgram/G_20_SE001_DynNgram_Test02.edf",
+   "bytes": 2659862,
+   "sha256": "0e7e82a2b1ca90585e0a10ca6023433343f99c51cc503482e8f58b9622bd236e"
+  },
+  {
+   "file": "G_20/SE001/Test/DynNgram/G_20_SE001_DynNgram_Test03.edf",
+   "bytes": 2804118,
+   "sha256": "0a970a15f2e63e2c6142d03df04fbc0b2ede6a697003c2e3fd6dbbfea755ea89"
+  },
+  {
+   "file": "G_20/SE001/Test/DynNgram/G_20_SE001_DynNgram_Test04.edf",
+   "bytes": 1882134,
+   "sha256": "02962db63ab8a1afa7b620a67091a4ea76f1c36cfb3fc2e2a54a0da6e2c53216"
+  },
+  {
+   "file": "G_20/SE001/Test/DynNgram/G_20_SE001_DynNgram_Test05.edf",
+   "bytes": 2427798,
+   "sha256": "8db528f0d85d35fb1e616d0df62f70a418f0628b39ceaca7ca5eca4f0e68ff72"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train02.edf",
+   "bytes": 5996566,
+   "sha256": "3653fae1e5708d95332a59ab2a856fff70d084242677930cb4c58f64f04ee39f"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train03.edf",
+   "bytes": 5996566,
+   "sha256": "c5241e72650c91df75d46d539942daca04debdbedc95176da4b1760b17f5af94"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train04.edf",
+   "bytes": 5996566,
+   "sha256": "f83f3d60d5f692131c2c7784e90e30c9bfb4033fedacdeb58d45b5775f11e211"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train05.edf",
+   "bytes": 5996566,
+   "sha256": "7f0a4d78cbcc54f901ec1df034a2515af3255fe4ab372372ebfb2728600aa724"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train06.edf",
+   "bytes": 5996566,
+   "sha256": "e0ab2b46b6194004760c0f1eea477b893468b105f44578186388094a570892c7"
+  },
+  {
+   "file": "G_20/SE001/Train/CB/G_20_SE001_CB_Train07.edf",
+   "bytes": 5996566,
+   "sha256": "8e8f1af257a6bc75235914c85fcb40f448ab69315900b7e817d1e47e221976fc"
+  }
+ ]
+}
