@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.13026/0byy-ry86",
  "naming": "upstream_filenames_restored",
- "n_files": 320,
- "total_bytes": 1388873216,
+ "n_files": 321,
+ "total_bytes": 1389854131,
  "files": [
   {
    "file": "G_01/SE001/Test/DynBigram/G_01_SE001_DynBigram_Test01.edf",
@@ -1930,8 +1930,25 @@
    "bytes": 5996566,
    "sha256": "8e8f1af257a6bc75235914c85fcb40f448ab69315900b7e817d1e47e221976fc",
    "subject": "20"
+  },
+  {
+   "file": "SHA256SUMS.txt",
+   "bytes": 980915,
+   "sha256": "75ce052ae8626a73b43887c994c4c0d17e5b0d775ad3083f759af20028e32fbb",
+   "subject": null,
+   "url": "https://physionet.org/files/bigp3bci/1.0.0/SHA256SUMS.txt",
+   "how": "loader index: PhysioNet bigP3BCI 1.0.0 SHA256SUMS.txt, byte-identical at physionet.org/files and physionet-open.s3.amazonaws.com; read by moabb.datasets.download.download_if_missing before the recordings; retrieved 2026-10-16"
   }
  ],
  "n_subjects_recorded": 20,
- "privacy_correction": "2026-10-07: identification fields in the headers of the recording files were scrubbed in place; the checksums in this file describe the original upstream files, not the scrubbed copies in this dataset."
+ "privacy_correction": "2026-10-07: identification fields in the headers of the recording files were scrubbed in place; the checksums in this file describe the original upstream files, not the scrubbed copies in this dataset.",
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.4",
+   "added_files": 1,
+   "added_bytes": 980915,
+   "note": "Added SHA256SUMS.txt: PhysioNet's checksum index of bigP3BCI 1.0.0 (https://physionet.org/files/bigp3bci/1.0.0/SHA256SUMS.txt), byte-identical to https://physionet-open.s3.amazonaws.com/bigp3bci/1.0.0/SHA256SUMS.txt, retrieved 2026-10-16. MOABB's Mainsah2025 loader reads it (download_if_missing) to list the recordings of StudyG before fetching them; with the file at the root of sourcedata/ the loader takes it from this deposit (lookup by the URL's file name). Checked: 320 of 320 deposited files are in it under bigP3BCI-data/StudyG/ with the same SHA-256. Subject-less entry: shared by every subject's load."
+  }
+ ]
 }
